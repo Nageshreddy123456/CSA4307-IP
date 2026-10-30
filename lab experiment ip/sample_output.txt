@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 11: Home Finder
+
+Page title: Home Finder
+Search results: demo cards for Home Finder
+Action: select an item and submit the form
+Expected message: Saved demo record: IP11-XXXXXX
+
+The exact generated reference code varies each run.
