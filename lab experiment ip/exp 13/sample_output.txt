@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 13: BlossomGifts
+
+Page title: BlossomGifts
+Search results: demo cards for BlossomGifts
+Action: select an item and submit the form
+Expected message: Saved demo record: IP13-XXXXXX
+
+The exact generated reference code varies each run.
