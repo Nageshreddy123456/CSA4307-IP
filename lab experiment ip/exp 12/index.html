@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsureEasy | Insurance Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🛡️ InsureEasy</div>
+    <nav><a href="#policies">Policies</a><a href="#my-policies">My Policies</a><a href="#claims">Claims</a></nav>
+    <button class="outline" id="loginBtn">Login</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">INSURANCE MADE SIMPLE</p><h1>Protect what<br><span>matters most.</span></h1><p>Compare plans, manage policies, and keep track of renewals in one simple place.</p><a class="primary link-button" href="#policies">Explore Policies</a></div>
+      <div class="hero-card"><div class="shield">✓</div><h3>Your protection, simplified</h3><p>Health · Auto · Home</p><div class="mini-row"><span>Policy management</span><strong>Easy</strong></div><div class="mini-row"><span>Renewal reminders</span><strong>On time</strong></div></div>
+    </section>
+
+    <section class="section" id="policies">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR COVER</p><h2>Compare insurance policies</h2></div><input id="searchInput" type="search" placeholder="Search policies..." aria-label="Search policies" /></div>
+      <div class="filters"><button class="filter active" data-type="All">All</button><button class="filter" data-type="Health">Health</button><button class="filter" data-type="Auto">Auto</button><button class="filter" data-type="Home">Home</button></div>
+      <div class="policy-grid" id="policyGrid"></div>
+    </section>
+
+    <section class="section dashboard" id="my-policies">
+      <div class="section-heading"><div><p class="eyebrow">YOUR DASHBOARD</p><h2>My policies</h2></div><span class="small-note">Demo data is stored in this browser</span></div>
+      <div class="table-wrap"><table><thead><tr><th>Policy</th><th>Type</th><th>Annual premium</th><th>Status</th><th>Action</th></tr></thead><tbody id="myPolicyRows"><tr><td colspan="5" class="empty">No policies yet. Choose a policy above to get started.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section claims-section" id="claims">
+      <div><p class="eyebrow">NEED HELP?</p><h2>Submit a claim request</h2><p class="muted">Enter your details and the team will review your demo request.</p></div>
+      <form id="claimForm" class="claim-form"><label>Full name<input required id="claimName" placeholder="Your name" /></label><label>Policy number<input required id="claimPolicy" placeholder="e.g. IE-1001" /></label><label>Claim details<textarea required id="claimDetails" rows="3" placeholder="Briefly describe the claim"></textarea></label><button class="primary" type="submit">Submit Claim</button><p id="claimMessage" class="message" aria-live="polite"></p></form>
+    </section>
+  </main>
+  <footer>© 2026 InsureEasy · Student Internet Programming Lab Demo</footer>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>

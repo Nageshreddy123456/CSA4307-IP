@@ -1,0 +1,25 @@
+SAMPLE OUTPUT - EXPERIMENT 12: INSUREEASY
+
+Page title: InsureEasy | Insurance Management System
+
+Home page:
+- InsureEasy header with Policies, My Policies, and Claims navigation.
+- Heading: Protect what matters most.
+- Explore Policies button.
+
+Policy comparison cards:
+- Health Secure Plus - Health Insurance - ₹6,500/year
+- Auto Care Standard - Auto Insurance - ₹4,800/year
+- Home Shield - Home Insurance - ₹3,900/year
+- Family Health Max - Health Insurance - ₹9,200/year
+- Auto Care Premium - Auto Insurance - ₹7,600/year
+- Home Shield Plus - Home Insurance - ₹5,900/year
+
+Example interaction:
+1. Click Add Policy on Health Secure Plus.
+2. My Policies displays Health Secure Plus, type Health, premium ₹6,500, and Active (Demo).
+3. Click Remove to remove it from the demo list.
+4. Enter a name, policy number, and claim details in Submit a Claim Request.
+5. A confirmation message appears: Demo claim submitted for [name] (policy [policy number]).
+
+Note: Premiums and policy data are sample data for a lab demo only.
